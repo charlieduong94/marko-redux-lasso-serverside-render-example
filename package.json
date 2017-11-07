@@ -4,7 +4,7 @@
   "description": "An example of using marko-redux",
   "dependencies": {
     "marko": "^4.5.6",
-    "marko-redux": "charlieduong94/marko-redux",
+    "marko-redux": "0.0.1",
     "redux": "^3.7.2"
   },
   "devDependencies": {
@@ -15,7 +15,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --inline --color",
+    "start": "webpack-dev-server --open --hot --inline --color",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

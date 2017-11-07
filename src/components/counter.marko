@@ -1,13 +1,4 @@
-class {
-  increment () {
-    this.emit('increment')
-  }
-  decrement () {
-    this.emit('decrement')
-  }
-}
-
 h3 -- Counter ${input.count}
 
-button onClick('increment') -- Increment
-button onClick('decrement') -- Decrement
+button onClick('emit', 'increment') -- Increment
+button onClick('emit', 'decrement') -- Decrement

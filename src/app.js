@@ -9,8 +9,5 @@ registerStore(store)
 const CounterContainer = require('./containers/counter-container')
 const appContainer = document.getElementById('app')
 
-console.log('rendering')
-
 CounterContainer.renderSync()
   .appendTo(appContainer)
-
