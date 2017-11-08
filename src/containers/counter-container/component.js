@@ -1,5 +1,9 @@
 const { connect } = require('marko-redux')
-const { increment, decrement } = require('../../actions/counterActions')
+const {
+  increment,
+  decrement,
+  setCount
+} = require('../../actions/counterActions')
 
 class CounterContainer {
   onCreate (input) {
@@ -22,7 +26,8 @@ function mapStateToInput (state) {
 function mapDispatchToComponent (dispatch) {
   return {
     increment: () => dispatch(increment()),
-    decrement: () => dispatch(decrement())
+    decrement: () => dispatch(decrement()),
+    setCount: (input) => dispatch(setCount(input))
   }
 }
 
