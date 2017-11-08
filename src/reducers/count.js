@@ -1,4 +1,4 @@
-function counterReducer (state = 0, action) {
+function countReducer (state = 0, action) {
   switch (action.type) {
     case 'SET_COUNT':
       return action.payload
@@ -11,4 +11,4 @@ function counterReducer (state = 0, action) {
   }
 }
 
-module.exports = counterReducer
+module.exports = countReducer

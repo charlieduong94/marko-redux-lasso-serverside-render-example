@@ -1,4 +1,5 @@
 const { connect } = require('marko-redux')
+
 const {
   increment,
   decrement,
@@ -19,7 +20,7 @@ class CounterContainer {
 
 function mapStateToInput (state) {
   return {
-    count: state.counter
+    count: state.count
   }
 }
 
