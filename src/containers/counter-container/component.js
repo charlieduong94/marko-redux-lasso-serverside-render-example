@@ -32,7 +32,7 @@ function mapDispatchToComponent (dispatch) {
   }
 }
 
-module.exports = connect(
+module.exports = connect({
   mapStateToInput,
   mapDispatchToComponent
-)(CounterContainer)
+})(CounterContainer)

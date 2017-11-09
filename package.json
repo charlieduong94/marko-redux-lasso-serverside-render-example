@@ -4,7 +4,7 @@
   "description": "An example of using marko-redux",
   "dependencies": {
     "marko": "^4.5.6",
-    "marko-redux": "0.0.1",
+    "marko-redux": "^0.1.0",
     "redux": "^3.7.2"
   },
   "devDependencies": {
