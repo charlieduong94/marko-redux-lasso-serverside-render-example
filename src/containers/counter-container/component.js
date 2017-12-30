@@ -7,13 +7,13 @@ const {
 } = require('../../actions/counterActions')
 
 class CounterContainer {
-  onCreate (input) {
+  onCreate (input, out) {
     this.state = {
       count: input.count
     }
   }
 
-  onInput (input) {
+  onInput (input, out) {
     this.state.count = input.count
   }
 }
