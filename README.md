@@ -1,7 +1,8 @@
-# marko-redux-example
+# marko-redux-lasso-serverside-render-example
 
-This is a simple example of how to use
-[marko-redux](https://github.com/charlieduong94/marko-redux).
+This is a simple example of what serverside rendering with
+[marko-redux](https://github.com/charlieduong94/marko-redux)
+looks like.
 
 ## Installation
 
@@ -20,3 +21,5 @@ npm start
 # or
 yarn start
 ```
+
+Note: Go to `localhost:8080` to see the app.
