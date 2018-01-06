@@ -12,7 +12,7 @@ var marko_template = module.exports = require("marko/src/html").t(__filename),
     marko_helpers = require("marko/src/runtime/html/helpers"),
     marko_loadTag = marko_helpers.t,
     counter_container_tag = marko_loadTag(counter_container_template),
-    provider_template = marko_loadTemplate(require.resolve("marko-redux/src/components/provider/index.marko")),
+    provider_template = marko_loadTemplate(require.resolve("marko-redux/lib/components/provider/index.marko")),
     provider_tag = marko_loadTag(provider_template);
 
 function render(input, out, __component, component, state) {
@@ -37,6 +37,6 @@ marko_template.meta = {
     component: "./",
     tags: [
       "../counter-container",
-      "marko-redux/src/components/provider/index.marko"
+      "marko-redux/lib/components/provider/index.marko"
     ]
   };
